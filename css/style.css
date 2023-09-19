@@ -1,0 +1,147 @@
+@import "./colors.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+body {
+    background: var(--cor-fundo);
+    color: var(--branco);
+}
+
+.casabotao{
+    margin-top: 0.25rem;
+}
+
+.logo {
+    color: var(--branco);
+    margin-right: 37.5rem;
+
+}
+
+.inicio {
+    color: var(--cor-icone);
+    display: flex;
+    gap: 0.6875rem;
+}
+
+.conteudo {
+    color: var(--cor-icone-selecionado);
+    margin-inline: 3.125rem;
+    display: flex;
+    gap: 0.6875rem;
+    border-bottom: 2px solid var(--cor-icone-selecionado); 
+}
+
+.quiz {
+    color: var(--cor-icone);
+    margin-right: 25rem;
+    display: flex;
+    gap: 0.6875rem;
+}
+
+header {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 1.4375rem 7.4rem 1.5625rem;
+}
+
+main {
+    margin-left: 3.75rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.quizbotao {
+    margin-top: 0.5rem;
+}
+
+.voltar {
+    margin-left: 18rem;
+
+}
+
+
+.conteudosatalho {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.textoimg {
+    color: var(--branco);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 21.325rem;
+    
+}
+
+.cova>a,
+.metal>a,
+.ion>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 3.5rem;
+    padding: 0.63rem 1.25rem;
+    gap: 10px;
+    border-radius: 1.25rem;
+    background: #00214E;
+    color: #FFF ;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.imageconteudo{
+    background-image: linear-gradient(180deg, #052756 0%, rgba(217, 217, 217, 0.00) 100%), url(../images/ionicas.png) ;
+    width: 24.125rem;
+    height: 38.75rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conteudoimg{
+    background-image:linear-gradient(180deg, #052756 0%, rgba(217, 217, 217, 0.00) 100%), url(../images/covalentes.png);
+    width: 24.125rem;
+    height: 38.75rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+

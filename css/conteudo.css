@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import "./colors.css";
+
+body {
+    
+    background: var(--cor-fundo);
+    color: var(--branco);
+}
+
+.logo {
+    color: var(--branco);
+    margin-right: 37.5rem;
+
+}
+
+.inicio {
+    color: var(--cor-icone);
+    display: flex;
+    gap: 0.6875rem;
+}
+
+.conteudo {
+    color: var(--cor-icone-selecionado);
+    margin-inline: 3.125rem;
+    display: flex;
+    gap: 0.6875rem;
+    border-bottom: 2px solid var(--cor-icone-selecionado); 
+}
+
+.quiz>a{
+    margin-top: 0.25rem;
+}
+.quiz {
+    color: var(--cor-icone);
+    display: flex;
+    gap: 0.6875rem;
+}
+
+header {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 7.4rem 1.5625rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imagem_quiz{
+    position: absolute;
+    width: 1200px;
+    height: 770px;
+    left: 23rem;
+    top: 10rem;
+    background: url(.png), linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 35px;
+    
+}
+
+.seta{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 0.2rem;
+    top: 0.2rem;
+    border-radius: 10rem;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.seta_voltar{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 25rem;
+    top: 12rem;
+    border-radius: 10rem;
+   
+}
+
+
+.seta2{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 0.2rem;
+    top: 0.2rem;
+    border-radius: 10rem;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.seta_voltar2{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 57.5rem;
+    top: 53rem;
+    border-radius: 10rem;
+    transform: rotate(-89.8deg);
+}
+
+
+.retangulo {
+    position: absolute;
+    width: 1200px;
+    height: 666px;
+    left: 23rem;
+    top: 70rem;
+    background: linear-gradient(180deg, #00214E 0%, #000C1B 75.52%);
+    border-radius: 35px;
+    text-align: center;
+
+}
+
+
+.mapa_mental{
+    top: 115rem;
+    left: 40rem;
+    position: absolute;
+}
+
+.praqueserve{
+    top: 150rem;
+    left: 20rem;
+    position: absolute;
+}
+
+.videoionica{
+    top: 200rem;
+    left: 18rem;
+    position: absolute;
+}
+
